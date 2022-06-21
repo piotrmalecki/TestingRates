@@ -47,17 +47,14 @@ namespace TestRating
             {
                 case PolicyType.Health:
                     Rating = _healthPolicyService.CalculatePolicy(policy);
-
                     break;
 
                 case PolicyType.Travel:
                     Rating = _travelPolicyService.CalculatePolicy(policy);
-
                     break;
 
                 case PolicyType.Life:
                     Rating = _lifePolicyService.CalculatePolicy(policy);
-
                     break;
 
                 default:
